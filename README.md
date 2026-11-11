@@ -106,3 +106,8 @@ cargo fmt --check
 Los tests de layout corren un frame real de egui sin GPU (`ctx.run_pass`) y
 miden **todas** las frases del archivo: una frase nueva que no entre rompe los
 tests en vez de romper la ventana.
+
+## Licencia
+
+MIT — ver [`LICENSE`](LICENSE). Podés usarlo, modificarlo y redistribuirlo,
+incluso comercialmente, siempre que mantengas el aviso de copyright.
