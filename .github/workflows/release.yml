@@ -1,0 +1,123 @@
+name: release
+
+# Se dispara al empujar un tag v* (publica el release) o a mano desde la
+# pestaña Actions (solo compila y deja los artefactos, sin publicar).
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+# `gh release create` necesita permiso de escritura sobre el contenido del repo.
+# El GITHUB_TOKEN por defecto suele venir de solo lectura.
+permissions:
+  contents: write
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  # Un solo lugar controla la versión: Cargo.toml. El tag tiene que coincidir o
+  # el pipeline corta acá, antes de compilar cuatro binarios para nada.
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: El tag tiene que coincidir con Cargo.toml
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          version=$(sed -n 's/^version = "\(.*\)"/\1/p' Cargo.toml | head -1)
+          if [ "v${version}" != "${GITHUB_REF_NAME}" ]; then
+            echo "::error::El tag ${GITHUB_REF_NAME} no coincide con Cargo.toml (v${version})."
+            exit 1
+          fi
+          echo "Versión v${version} confirmada."
+
+  build:
+    needs: verify
+    strategy:
+      # Un sistema que falla no cancela los otros: se ve todo el mapa de una.
+      fail-fast: false
+      matrix:
+        include:
+          # glibc 2.35: corre en Ubuntu 22.04 y en todo lo posterior. Compilar en
+          # `ubuntu-latest` dejaría un binario que solo arranca en distros nuevas.
+          - os: ubuntu-22.04
+            target: x86_64-unknown-linux-gnu
+            asset: minish-x86_64-linux.tar.gz
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+            asset: minish-x86_64-windows.zip
+          # macOS Intel y Apple Silicon son binarios distintos: no hay
+          # cross-compile entre ellos sin toolchains extra. `macos-15-intel`
+          # es el único runner x86_64 vigente (macos-13 se retiró en diciembre
+          # de 2025) y sigue disponible hasta agosto de 2027.
+          - os: macos-15-intel
+            target: x86_64-apple-darwin
+            asset: minish-x86_64-macos.tar.gz
+          - os: macos-15
+            target: aarch64-apple-darwin
+            asset: minish-aarch64-macos.tar.gz
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # eframe tarda varios minutos en compilar; sin caché se paga en cada tag.
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: ${{ matrix.target }}
+
+      - run: rustup target add ${{ matrix.target }}
+
+      # --locked: compila exactamente las versiones de Cargo.lock, las mismas que
+      # pasaron los tests. Sin esto, el release puede salir con otras.
+      - run: cargo build --release --locked --target ${{ matrix.target }}
+
+      - name: Empaquetar (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          strip target/${{ matrix.target }}/release/minish
+          tar -czf "${{ matrix.asset }}" -C target/${{ matrix.target }}/release minish
+
+      - name: Empaquetar (macOS)
+        if: runner.os == 'macOS'
+        run: |
+          tar -czf "${{ matrix.asset }}" -C target/${{ matrix.target }}/release minish
+
+      - name: Empaquetar (Windows)
+        if: runner.os == 'Windows'
+        run: |
+          Compress-Archive -Path target/${{ matrix.target }}/release/minish.exe -DestinationPath "${{ matrix.asset }}"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.asset }}
+          path: ${{ matrix.asset }}
+          # Un empaquetado que no produjo nada es un fallo, no un artefacto vacío.
+          if-no-files-found: error
+
+  publish:
+    needs: build
+    # Una corrida manual compila pero no publica: publicar es irreversible.
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+
+      - name: Publicar el release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" dist/* \
+            --title "minish ${GITHUB_REF_NAME}" \
+            --generate-notes \
+          || gh release upload "${GITHUB_REF_NAME}" dist/* --clobber
+
+      - name: Resumen
+        run: gh release view "${GITHUB_REF_NAME}" --json assets --jq '.assets[].name'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
