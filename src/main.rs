@@ -9,10 +9,10 @@
 //! - [`app`]: la capa de egui, que solo dibuja y traduce eventos.
 
 mod app;
+mod phrases;
 mod session;
 mod stats;
 mod theme;
-mod words;
 
 fn main() -> eframe::Result {
     let options = eframe::NativeOptions {

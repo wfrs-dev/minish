@@ -1,0 +1,630 @@
+El secreto de un matrimonio feliz es perdonarse mutuamente el haberse casado.	Sacha Gvitry.
+El hombre ha de fijar un final para la guerra, sino la guerra fijará un final para el hombre.	J.F. Kennedy
+El virtuoso se conforma con soñar lo que el pecador realiza en la vida.	Platón.
+Si crees que C++ es difícil, intenta aprender inglés.	Bjarne Stroustrup
+Recuerda que normalmente hay una solución más simple y rápida que la primera que se te ocurre.	Donald Knuth
+Es más fácil negar las cosas que enterarse de ellas.	Mariano José De Larra
+El regalo de la felicidad pertenece a quien lo desenvuelve.	Anónimo
+El amor nunca muere de hambre; con frecuencia, de indigestión.	Niñon De Lenclos.
+La gente no busca razones para hacer lo que quiere hacer, busca excusas.	Somerset Maugham.
+La buena conciencia sirve de buena almohada.	John Ray
+Una medición precisa vale más que mil opiniones de expertos.	Grace Hopper
+Es propio del amor si es verdadero, compendiar en un ser el mundo entero.	Campoamor
+La experiencia es como un peine que te dan, justo cuando te quedas calvo.	Ringo Bonavena
+Conocer y amar nuestro folclore, es honrar el lenguaje de nuestra bandera.	Venezuela Tambor Y Canto
+Las últimas innovaciones en C++ se crearon para corregir las innovaciones anteriores.	David Jameson
+En media hora de juego podemos descubrir mejor a una persona que en un año de conversación.	Albert Einstein
+La amistad es como la buena salud, nadie sabe lo que vale hasta que la pierde.	Charles Caleb Colton
+Programar es como golpearte la cara: tarde o temprano, te sangrará la nariz.	Kyle Woodbury
+Hay una gran fuerza escondida en una dulce orden.	Proverbio Romano
+El hombre ama poco y a menudo, la mujer mucho y raramente.	Jan Basta.
+El problema con C++ es que tienes que saberlo todo sobre él antes de poder empezar a escribir cualquier cosa.	Larry Wall
+El mundo llama inmorales a los libros que le explican su propia vergüenza.	Oscar Wilde.
+El hombre que se levanta es aún más grande que el que no ha caído.	Concepcion Arenal
+El fin más importante de la educación es ayudar a los estudiantes a no depender de la educación formal.	Paul Gray
+Cuanto más adelanta el hombre en la penetración de los secretos de la Naturaleza, mejor se le descubre la universalidad del plano eterno.	Kepler.
+La juventud es feliz en lo que tiene de porvenir.	Nicolay Goyol
+Cuando la voz de un enemigo acusa, el silencio de un amigo condena.	Anónimo
+Cualquiera puede simpatizar con las penas de un amigo, simpatizar con sus éxitos requiere una naturaleza delicadísima.	Oscar Wilde
+Bebo para hacer interesantes a las demás personas.	Groucho Marx
+El amor es como la salsa mayonesa: cuando se corta, hay que tirarlo y empezar otro nuevo.	Enrique Jardiel Poncela.
+Al vencer sin obstáculos se triunfa sin gloria.	Corneille
+Cabalgar, viajar y cambiar de lugar recrean el ánimo.	Séneca
+Cuando empieza a preguntarse si es hora de irse, es que ya pasó la hora de irse.	Willian Rotsler
+El trabajo es el refugio de los que no tienen nada para hacer.	Oscar Wilde
+Cásate; si por casualidad das con una buena mujer, serás feliz; si no, te volverás filósofo, lo que siempre es útil para un hombre.	Sófocles.
+Equilibra tus necesidades con tu riqueza y no serás pobre ni rico, sino simplemente afortunado.	Chilón De Lacedemonia.
+Los mecanismos de control de acceso en C++ protegen contra accidentes, pero no contra estafadores.	Bjarne Stroustrup
+Haz de tu alma un diamante, a cada golpe una faceta más, para que un día sea toda luminosa.	Rogelio Stela Bonilla.
+Los dos productos más famosos creados en la Universidad de Berkeley son UNIX y LSD. Esto no puede ser una simple coincidencia.	Jeremy S. Anderson
+Hacer el amor es algo muy sano: Quemas calorías y hasta te olvidas de quién eres.	Isabel Gemio
+El humor es la maldad de los hombres dicha con ingenuidad de niño.	Manuel Gila
+Aceptar un favor de un amigo, es hacerle otro.	Jhon Ch. Collins
+Un programa que no funciona suele ser menos dañino que uno que funciona mal.	Dave Thomas
+¡Atención! El código anterior puede tener errores. Solo he demostrado que es correcto, pero no lo he ejecutado.	Anónimo
+Estos son mis principios. Si a usted no le gustan, tengo otros.	Groucho Marx
+El amor tiene fácil la entrada y difícil la salida.	Lope De Vega
+Cuando veas a un hombre bueno, trata de imitarlo; cuando veas a un hombre malo, examínate a ti mismo.	Confucio.
+No podemos culpar a la tecnología que usamos por nuestros errores.	Tim Berners-Lee
+El comercio mezcla a los hombres, pero no los une.	Anónimo.
+En ningun momento he dudado que las mujeres son tontas. Al fin y al cabo el Todopoderoso las creo a imagen y semejanza de los hombres.	George Eliot
+Programar es como el sexo. Un error y tienes que darle soporte para toda la vida.	Anónimo
+En la vida real, el que no se rinde es todo un valiente.	Paul Mccartney
+El único idioma universal es el beso.	Louis Charles Alfred De Musset.
+No sé hacer capturas de pantalla porque normalmente trabajo en el ordenador en modo texto.	Richard Stallman
+¿El índice de un array debe empezar en 0 o en 1? Mi propuesta de compromiso de 0.5 fue, en mi opinión, rechazada sin la debida consideración.	Anónimo
+Algunos nacen grandes; otros hacen grandes cosas, y otros se ven aplastados por ellas.	Willian Sheakespeare
+En el majestuoso conjunto de la creación, nada hay que me conmueva tan hondamente, que acaricie mi espíritu y de vuelo desusado a mi fantasía como la luz apacible y desmayada de la luna.	Gustavo Adolfo Bequer
+Como no me he preocupado de nacer, no me preocupo de morir.	Federico García Lorca.
+La programación no es una ciencia, sino un oficio.	Richard Stallman
+El amor es ciego, pero el matrimonio le restaura la vista.	G.C.Lichtenberg
+A medida que avanza una discusión, retrocede la verdad.	Anónimo
+La estupidez insiste siempre.	Albert Camus
+Compórtate con tu mujer como te comportarías con la de otro.	J.Giraudoux
+El mayor problema con los programadores es que nunca puedes saber qué están haciendo hasta que es demasiado tarde.	Anónimo
+El secreto de la dicha reside más bien en darla que en esperarla.	Louise M. Normand
+Es un hecho curioso de la vida que, si uno se niega a aceptar nada que no sea lo mejor, suele conseguirlo.	Maugham
+La dicha está donde la encuentras, muy rara vez donde la buscas.	J. Petit
+El amor que nace súbitamente es el más tardo de curar.	Jean De La Bruy&Etildere
+La magia deja de existir una vez que entiendes cómo funciona.	Tim Berners-Lee
+La enfermedad del ignorante es ignorar su propia ignorancia.	Amos Bronson Alcott
+Desde que los hijos educan a los padres, se acabaron los complejos de Edipo.	Mario Benedetti
+En el fondo, son las relaciones con las personas lo que da valor a la vida.	Guillermo Von Humboldt.
+El dinero es buen sirviente pero mal amo.	Henry G. Bohn
+Los especialistas jóvenes no saben cómo trabajar, y los especialistas experimentados saben cómo no trabajar.	Alexander Golov
+A veces, cuesta mucho más eliminar un sólo defecto que adquirir cien virtudes.	Jean De La Bruyère
+En los ojos del joven, arde la llama; en los del viejo, brilla la luz.	Victor Hugo
+Pregúntate más a menudo "¿Qué debo ocultar?" y te sorprenderá cuántos problemas de diseño se desvanecen ante tus ojos.	Steve McConnell
+La amistad es un contrato por el cual nos obligamos a hacer pequeños favores a los demás para que los demás nos los hagan grandes.	Montesquieu.
+Aprender a programar tiene la misma relación con el diseño de sistemas interactivos que aprender mecanografía con escribir poesía.	Ted Nelson
+El hombre se dedica a desear en voz alta aquello que jamás se esfuerza en alcanzar.	Noel Claraso
+Programar es descomponer algo grande e imposible en algo pequeño y bastante factible.	Jazzwant
+Es necia la alabanza en causa propia.	Calderón de la Barca
+Cuando se trata de dinero todos son de la misma religión.	Voltaire
+Escoge a una mujer de la cual puedas decir: hubiera podido escogerla mas bella, pero no mejor.	Pitágoras
+La actividad es lo que hace dichoso al hombre.	Bernard Shaw
+Deberíamos usar el pasado como trampolín y no como sofá.	Harold Macmillan
+Un programa que no ha sido probado no funciona.	Bjarne Stroustrup
+Hay una especie de vergüenza en ser feliz a la vista de ciertas miserias.	Jean De La Bruyere
+En amor lo de menos es los insultos; lo grave es cuando empiezan los bostezos.	Enrique Jardiel Poncela
+La cordura y el genio son novios, pero jamás han podido casarse.	Amado Nervo
+Hay personas que de sus riquezas no tienen más que el miedo a perderlas.	Antoine Rivard
+El amor es un espíritu dentro de dos formas.	Percy Shelley
+Hay dos cosas que son infinitas: el Universo y la estupidez humana.	Albert Einstein
+La modularidad es un aspecto fundamental de todos los sistemas grandes que funcionan con éxito.	Bjarne Stroustrup
+Cualquier tonto puede escribir código que una máquina pueda entender. Los buenos programadores escriben código que los humanos puedan entender.	Martin Fowler
+Cuando los ricos se hacen la guerra, son los pobres los que mueren.	Jean Paul Sartre
+Cuando la felicidad nos sale al paso nunca lleva el hábito con que nosotros pensábamos encontrarla.	Madame De Amiel
+El que desee alcanzar una meta distante, debe dar muchos pasos cortos.	Helmut
+El Universo sólo teme al Tiempo, el Tiempo sólo teme a las Pirámides.	Refrán Árabe
+La desdicha es el vínculo más estrecho de los corazones.	La Fontaine.
+El comportamiento es un espejo en el que cada uno muestra su imagen.	Johann Wolfgang Von Goethe.
+El Hombre moderno es el eslabón perdido entre los monos y el ser humano.	Anónimo.
+El insomnio es una lucidez vertiginosa que convertiría el paraíso en un lugar de tortura.	Emile M. Cioran.
+Dios no es más que una palabra para explicar el mundo.	Alphonse De Lamartine
+Hay quien tiene el deseo de amar, pero no la capacidad de amar.	Giovanni Papini.
+La optimización prematura es la raíz de todos los males.	Donald Knuth
+Cuando uno dice que sabe lo que es la felicidad, se puede suponer que la ha perdido.	Anónimo
+Si los constructores construyeran edificios como los programadores escriben código, el primer pájaro carpintero que se posara en la fachada destruiría la civilización.	Anónimo
+El amor es: la alegría de los buenos, la reflexión de los sabios, el asombro de los incrédulos.	Platón
+Es mucho más fácil portar un shell que un script de shell.	Larry Wall
+Equivocarse, y a pesar de ello, deber otorgar confianza a mi ser interior, esto es el hombre.	Gottfried Benn
+Buscando mi destino, concluyo por pensar que sólo en el buscar consiste mi destino.	Mario Sarmiento
+La gente piensa que la seguridad es un sustantivo, algo que se puede comprar. En realidad, la seguridad es un concepto abstracto, como la felicidad.	James Gosling
+Esto se llama perseverancia en una buena causa y obstinación en una mala.	Laurence Sterne
+El destino mezcla las cartas, y nosotros jugamos.	Schopenhauer
+¡No es un bug, es una funcionalidad no documentada!	Anónimo
+El temor lo yerra todo.	Calderón de la Barca
+El hombre que no ha amado apasionadamente ignora la mitad más bella de la vida.	Stendhal
+El amor es la más noble flaqueza del espíritu.	John Dryden
+Amor: sólo una eternidad que no se alcanza.	Percy Byshe
+Las pruebas no pueden detectar errores como la creación de la aplicación incorrecta.	Steve McConnell
+El hombre no vive de otra cosa que de religión o de ilusiones.	Giacomo Leopardi
+Creo que el arte de programar es solo un poco más difícil que otras habilidades humanas. Programar te hace mejor, de la misma manera que aprender un idioma extranjero, matemáticas o leer libros te ayuda a desarrollarte.	Jack Dorsey
+Cada uno está solamente atento a su negocio.	Calderón de la Barca
+Tengo el presentimiento de que las cadenas de ADN desconocidas se decodificarán como derechos de autor y patentes.	Donald Knuth
+Algunas personas, al enfrentarse a un problema, piensan: "Ya sé, usaré expresiones regulares". Ahora tienen dos problemas.	Jamie Zawinski
+Añorar el pasado es correr tras el viento.	Proverbio Ruso.
+En tanto las leyes de la matemática se refieren a la realidad, no son ciertas; en tanto son ciertas, no se refieren a la realidad.	Albert Einstein.
+A la mujer hay que amarla, no comprenderla. Eso es lo primero que hay que comprender.	Osho
+La consecuencia de no pertenecer a ningún partido será que los molestaré a todos.	Lord Byron
+Qué fácil sería escribir programas si no fuera por los clientes.	R. S. Martin
+La Historia es como una destilación del chismorreo.	Carlyle
+La pereza es la principal virtud de un programador.	Larry Wall
+En la escala de lo cósmico sólo lo fantástico tiene posibilidades de ser verdadero.	Theilard De Chardin.
+El más difícil no es el primer beso, sino el último.	Paul Géraldy
+El negocio del cine es macabro, grotesco: es una mezcla de partido de fútbol y de burdel.	Federico Fellini.
+Hemos aprendido a volar como los pájaros y a nadar como los peces, pero no hemos aprendido el sencillo arte de vivir juntos como hermanos.	Martin L. King
+El viaje más largo es el que se hace hacia el interior de uno mismo.	Hammarskjöld.
+La mayoría de los programas de hoy en día son como las pirámides de Egipto, con millones de ladrillos apilados uno sobre otro y sin una integridad estructural; simplemente se construyen con fuerza bruta y miles de esclavos.	Alan Kay
+Buscando el bien de nuestros semejantes, encontramos el nuestro.	Platón.
+Las funciones que producen valores son más fáciles de combinar de nuevas maneras que aquellas que producen efectos secundarios.	Marijn Haverbeke
+No puedes confiar en código que no has escrito completamente tú mismo.	Ken Thompson
+El valor del matrimonio no reside en que los adultos hagan niños; si no en que los niños hagan adultos.	Peter De Vries
+Java es a JavaScript lo que un car es a una carpet.	Anónimo
+Cumplamos la tarea de vivir de tal modo que cuando muramos, incluso el de la funeraria lo sienta.	Mark Twain
+Es mejor el uso de las riquezas que la posesión de ellas.	Fernando De Rojas
+El talento es algo corriente. No escasea la inteligencia, sino la constancia.	Doris Lessing
+Hay dos tipos de mujeres: las feas y las que se pintan.	Oscar Wilde
+Contra el optimismo no hay vacunas.	Mario Benedetti
+A las mujeres les gustan los hombres desesperados; si no los encuentran, los hacen.	León Daudi
+Si disfrutas de las herramientas que usas, el trabajo se hará con éxito.	Donald Knuth
+La caridad bien entendida empieza por uno mismo, y generalmente acaba ahí.	Anónimo.
+En la vida, lo más triste, no es ser del todo desgraciado, es que nos falte muy poco para ser felices y no podamos conseguirlo.	Jacinto Benavente
+La felicidad es algo que depende no de la posición, sino de la disposición.	Jhon G. Pollard
+Justo cuando uno descubre que sus padres tenían razón, sus hijos empiezan a decirle que uno está equivocado.	Aldo Camarota
+Como no sabían que era imposible lo hicieron.	Anónimo
+Es necesario alternar la reflexión y la acción, que se completan y se corrigen la una con la otra.	Antonio Gaudí
+La experiencia es algo maravilloso. Nos permite reconocer un error cada vez que lo volvemos a cometer.	Franklin P. Jones
+El amor es una amistad con momentos eróticos.	Antonio Gala
+La experiencia es la enfermedad que ofrece el menor peligro de contagio.	Oliverio Girondo
+Depurar código es el doble de difícil que escribirlo. Por lo tanto, si escribes el código de la forma más inteligente posible, por definición, no eres lo suficientemente inteligente para depurarlo.	Brian W. Kernighan
+En lo tocante a ciencia, la autoridad de un millar no es superior al humilde razonamiento de un hombre.	Galileo Galilei
+Dios es el único ser que para reinar no tuvo ni siquiera necesidad de existir.	Charles Baudelaire
+Crecí besando libros y pan... Desde que besé a una mujer, mis actividades con el pan y los libros perdieron interés.	Salman Rushdie
+Antes de casarme veía difícil permanecer fiel a una persona. Ahora creo en el calor de un hogar, en la relación oficial. Cuando se está enamorada, la fidelidad es fácil.	Julia Roberts
+Es bastante difícil encontrar un error en tu código cuando lo estás buscando. Es aún más difícil cuando das por sentado que tu código no tiene errores.	Anónimo
+Hay dos formas de ver la vida: una es creer que no existen milagros, la otra es creer que todo es un milagro.	Albert Einstein
+Inteligencia militar son dos términos contradictorios.	Grouxo Marx
+Democracia significa gobierno por los sin educación, y aristocracia significa gobierno por los mal educados.	Chesterton.
+Cuando se lee un libro según qué estado de ánimo sólo se encuentran el libro interpretaciones de este estado.	Heinrich Heine
+El valor de una idea no tiene nada que ver con la sinceridad del hombre que la expone.	Oscar Wilde
+Los programas se vuelven más lentos más rápido de lo que el hardware se vuelve más rápido.	Niklaus Wirth
+De hombres es equivocarse; de locos persistir en el error.	Marco Tulio Cicerón.
+El dinero puede ser la cobertura de muchas cosas, pero no te da lo principal. Te da comida pero no apetito, medicina pero no salud; conocidos pero no amigos; servidores pero no lealtad; días de alegría pero no paz ni felicidad.	Henrik Ibsen
+El objetivo de la informática es construir algo que dure al menos hasta que terminemos de construirlo.	Anónimo
+El único elemento que puede substituir la dependencia del pasado, es la dependencia del futuro.	Jhon Dos Passos
+Hay tres cosas que jamás he podido comprender: el flujo y reflujo de las mareas, el mecanismo social y la lógica femenina.	Jean Cocteau
+El amor nace del recuerdo; vive de la inteligencia y muere por olvido.	Ramón Llull.
+En nuestro mundo la gente no sabe lo que quiere y está dispuesta a todo por conseguirlo.	Don Marquis
+Dadme un punto de apoyo y levantaré el mundo.	Arquímedes.
+Estamos rodeados de artilugios destinados a ahorrar trabajo, y sin embargo disponemos de escaso ocio autentico.	Laurence J. Peter
+Estar en ayunas no mata, pero la glotonería sí.	Proverbio Ruso.
+Incierta es la amistad en la próspera fortuna.	San Isidro
+Es mejor malograr la propia juventud, que no hacer nada en ella.	Georges Courteline
+El camino hacía la riqueza depende fundamentalmente de dos palabras: trabajo y ahorro.	Benjamín Franklin
+Con el submarino ya no habrá mas batallas navales como seguirán inventándose instrumentos de guerra cada vez mas perfeccionados y terroríficos, la guerra misma será imposible.	Jules Verne.
+En la sociedad actual, si no puedo comprar no existo.	Cristina Peri Rossi
+¡No te preocupes si algo no funciona! Si todo funcionara siempre, no tendrías trabajo.	Anónimo
+Descansar demasiado es oxidarse.	Sir Walter Scott.
+Junto a estar en lo cierto en este mundo, lo mejor es ser claro y estar definitivamente equivocado.	Thomas Henry Huxley.
+Cada virtud sólo necesita un hombre, pero la amistad necesita dos.	Montaigne
+La independencia, igual que el honor, es una isla rocosa sin playas.	Napoleón Bonaparte
+Es extraña la ligereza con que los malvados creen que todo les saldrá bien.	Victor Hugo.
+Las personas que creen que odian los ordenadores, en realidad odian a los malos programadores.	Larry Niven
+El que lee mucho y anda mucho; ve mucho y sabe mucho.	Cervantes
+Cuando se tienen 20 años, uno cree haber resuelto el enigma del mundo; a los 30 reflexiona sobre él, y a los cuarenta descubre que es insoluble.	August Strindberg
+A dónde podrá ir el que hasta aquí llego, si más allá solo fueron los muertos.	Thomas Jefferson.
+En la adversidad una persona es salvada por la esperanza.	Menander.
+Es más fácil medir algo que entender qué acabas de medir.	Anónimo
+La mayoría de los buenos programadores hacen su trabajo no porque esperen un pago o reconocimiento, sino porque disfrutan programando.	Linus Torvalds
+La humanidad es como es. No se trata de cambiarla, sino de conocerla.	Gustavo Flaubert.
+La guerra es el arte de destruir hombres, la política es el arte de engañarlos.	Jean Le R. D´Alambert
+El que se ahoga no repara en lo que se agarra.	José De San Martín
+El mejor consejo lo da siempre la experiencia, pero siempre llega demasiado tarde.	Amelot De La Houssaye
+En la vida real, el que no se rinde es todo un valiente.	Paul McCartney
+Dos veces me preguntaron: "Dígame, señor Babbage, ¿qué pasaría si introduce cifras incorrectas en la máquina? ¿Obtendremos la respuesta correcta?". Ni siquiera puedo imaginar qué tipo de confusión mental podría llevar a tal pregunta.	Charles Babbage
+El amor que pudo morir no era amor.	Anónimo
+Cumplamos la tarea de vivir de tal modo que cuando muramos, incluso el de la funeraria lo sienta.	Mark Twain.
+De todos los animales de la creación el hombre es el único que bebe sin tener sed, come sin tener hambre y habla sin tener nada que decir.	John Steinbeck.
+El mundo no está en peligro por las malas personas sino por aquellas que permiten la maldad.	Einstein
+El dinero no es nada, pero mucho dinero, eso ya es otra cosa.	Bernard Shaw
+El dinero no es nada, pero mucho dinero, eso ya es otra cosa.	Bernard Shaw
+Muchos de ustedes están familiarizados con las virtudes de un programador. Son solo tres, y por supuesto son: pereza, impaciencia y orgullo.	Larry Wall
+Hay ciertos defectos que bien manejados brillan más que la virtud.	La Rochefoucauld
+Hay quien tiene el deseo de amar pero no la capacidad de amar.	Giovanni Papini
+El acto sexual es un saludo que intercambian dos almas.	Macedonio Fernández
+Fuera del perro, un libro es probablemente el mejor amigo del hombre, y dentro del perro probablemente está demasiado oscuro para leer.	Groucho Marx
+El que no tiene carácter no es un hombre: es una cosa.	Chamfort
+Cuando no se tiene dinero, siempre se piensa en él. Cuando el dinero se tiene, sólo se piensa en él.	Jean Paul Getty.
+Cuando se habla de estar enamorado como un loco se exagera; en general, se está enamorado como un tonto.	Noel Claraso
+El mundo es de quien nace para conquistarlo y no de quien sueña que puede conquistarlo.	Fernando Pessoa
+La alegría es la mejor enfermera.	Hamerling
+A veces hay que estropear un poquito el cuadro para poder terminarlo.	Eugène Delacroix.
+La inspiración existe, pero tiene que encontrarte trabajando.	Pablo Ruiz Picasso
+En teoría, no hay diferencia entre la teoría y la práctica. Pero en la práctica, sí la hay.	Anónimo
+Los programas deben escribirse para las personas que los leerán; las máquinas que los ejecutarán son secundarias.	Harold Abelson
+El hombre que dice, no puede hacerse, será sorprendido por alguien que lo haga.	Anónimo
+El que tiene un amigo verdadero puede decir que posee dos almas.	Anónimo
+He pasado una noche estupenda. Pero no ha sido esta.	Groucho Marx
+Amor no es mirarse el uno al otro, sino mirar los dos en la misma dirección.	Antoine De Saint Exupéry
+Hay mucha gente que cuando ha de hacer algo, hace algo; aunque no sea exactamente lo que ha de hacer.	Noel Clarasó Serrat
+El amor de los jóvenes no está en el corazón, sino en los ojos.	William Shakespeare
+En un buen diseño, añadir algo cuesta menos que la cosa en sí.	Thomas C. Gale
+Aunque las mujeres no somos buenas para el consejo, algunas veces acertamos.	Teresa De Jesús
+Cuando el carro se ha roto mucho os dirán por donde se debía pasar.	Proverbio Turco
+Si en Java el recolector de basura realmente funcionara, la mayoría de los programas se borrarían a sí mismos en la primera ejecución.	Robert Sewell
+Los programadores no son matemáticos, por mucho que quisiéramos que lo fueran.	Richard P. Gabriel
+Envejecer es todavía al único medio que se ha encontrado para vivir mucho tiempo.	Charles A. Sainte.Beuve
+El que se ocupa demasiado en hacer el bien no tiene tiempo de ser bueno.	Rabindranath Tagore.
+Es infinitamente más bello dejarse engañar diez veces que perder una vez la fe en la Humanidad.	Heinz Zschokke
+Es mi fe tan cumplida que adoro a Dios, aunque me dio la vida.	Ramón De Campoamor
+El que quiere estudiar amor se queda siempre en alumno.	Anónimo
+El mejor placer de la vida es hacer lo que la gente te dice que no puedes hacer.	Walter Bagehot
+El primer 90% del código ocupa el primer 90% del tiempo de desarrollo… El 10% restante del código ocupa el otro 90% del tiempo de desarrollo.	Anónimo
+La mejor mejora de rendimiento es pasar de "no funciona" a "funciona".	Anónimo
+El mal software de una persona es el trabajo fijo de otra.	Anónimo
+El hombre hace dinero, pero el dinero no hace al hombre.	Anónimo
+Hay hombres que luchan un día y son buenos. Hay otros que luchan un año y son mejores. Hay quienes luchan muchos años y son muy buenos. Pero hay los que luchan toda la vida: esos son los imprescindibles.	Bertolt Brecht
+El progreso consiste en el cambio.	Miguel De Unamuno
+El matrimonio es la principal causa de divorcio.	Groucho Marx
+Al amor lo pintan ciego y con alas. Ciego para no ver los obstáculos y con alas para salvarlos.	Jacinto Benavente
+Es más fácil inventar el futuro que predecirlo.	Alan Kay
+La felicidad no consiste en adquirir y gozar, sino en no desear nada, pues consiste en ser libre.	Epicteto
+¿Por qué nunca tenemos tiempo para hacerlo bien, pero siempre hay tiempo para rehacerlo?	Anónimo
+El hombre que no investiga las dos partes de una cuestión, no es honrado.	Abraham Lincoln
+A veces, lavándonos las manos, nos ensuciamos la conciencia.	Anónimo
+El secreto de la felicidad no está en hacer siempre lo que se quiere, sino en querer lo que se hace.	León Tolstoi
+El amor es emoción, y el sexo, acción.	Madonna
+Jamás ha habido un niño tan adorable que la madre no quiera poner a dormir.	R.W. Emerson
+El secreto del éxito es la honestidad. Si puedes evitarla, está hecho.	Groucho Marx
+Un lenguaje de bajo nivel es aquel que requiere atención a aspectos que no tienen ninguna relación con los programas escritos en ese lenguaje.	Alan J. Perlis
+El dinero no da la felicidad, pero aplaca los nervios.	Jeanne Bourgeois, Mistinguett
+(Al camarero de un restaurante) Hoy no tengo tiempo para almorzar. Traiga la cuenta.	Groucho Marx
+La amistad comienza donde termina o cuando concluye el interés.	Marco Tulio Cicerón
+La ciencia es una disciplina en la que el tonto de hoy puede sobrepasar el punto alcanzado por el genio de la generación precedente.	Max Gluckman
+Cuando hay dinero por medio es muy difícil la libertad.	Gonzalo Torrente Ballester
+Los programas pequeños se compilan y ejecutan correctamente al primer intento por casualidad. Pero si esto sucede con cualquier programa no trivial, es muy, muy sospechoso.	Bjarne Stroustrup
+Cuando existe respeto por uno mismo y por los demás; la comunicación se hace más fácil.	Rooder Fifighti
+Lo llamo mi error de los mil millones de dólares. La invención del puntero nulo en 1965.	Tony Hoare
+La belleza es la otra forma de la verdad.	Alejandro Casona
+Creo que esta será una nueva característica. Simplemente no le digas a nadie que surgió por accidente.	Larry Wall
+El software pasa por una fase de pruebas "beta" justo antes de lanzarse. "Beta" en latín significa "todavía no funciona".	Anónimo
+El hombre justo no es aquel que no comete ninguna injusticia, si no el que pudiendo ser injusto no quiere serlo.	Menadro
+El hombre que más ha vivido no es aquel que más años ha cumplido, sino aquel que más ha experimentado la vida.	Jean
+La igualdad de la riqueza debe consistir en que ningún ciudadano sea tan opulento que pueda comprar a otro, ni ninguno tan pobre que se vea necesitado de venderse.	Rousseau
+La aventura puede ser loca pero el aventurero ha de ser sensato.	Chesterton
+El diablo es optimista si cree que puede hacer peores a los hombres.	Kark Kraus
+Las métricas no mienten, pero los mentirosos usan las métricas.	Anónimo
+La fotografía es verdad. Y el cine es verdad 24 veces por segundo.	Jean Luc Goddard.
+A veces creo que hay vida en otros planetas, y a veces creo que no. En cualquiera de los dos casos la conclusión es asombrosa.	Carl Sagan
+Hay verdades que parece que se inventan.	Calderón de la Barca
+Hay verdades que parece que se inventan.	Calderón de la Barca
+El hombre es mortal por sus temores e inmortal por sus deseos.	Pitágoras
+El trabajo endulza la vida; pero no a todos les gustan los dulces.	Victor Hugo
+Cuando eres consciente de la muerte, acabas asumiendo tu propia soledad.	Rosa Regás
+A quien va usted a creer, ¿A mi, o a sus propios ojos?	Groucho Marx
+Cuando dos hombres desean la misma cosa que no pueden gozar juntos se convierten en enemigos.	Thomas Hobbes
+El respeto al derecho ajeno es la paz.	Benito Juárez
+Hay que haber vivido un poco para comprender que todo lo que se persigue en esta vida sólo se consigue arriesgando a veces lo que más se ama.	André Gide.
+El éxito tiene muchos padres, pero el fracaso es huérfano.	John F. Kennedy
+Cataluña es la mejor maquina de tren que tiene España.	Jordi Pujol
+El hombre comienza en realidad a ser viejo cuando cesa de ser educable.	Arthur Graf
+Cuidado con la tristeza. Es un vicio.	Gustave Flaubert.
+El deseo vence al miedo.	Mateo Aleman
+Elige la mejor manera de vivir; la costumbre te la hará agradable.	Pitágoras
+El mundo de cada cual se vuelve mucho más grande con sólo reconocer el de los demás.	J. Marie Laskas
+El automóvil es por el momento solo un lujo reservado a los ricos, pero aunque en el futuro su precio disminuya, nunca llegara a ser un medio de transporte tan popular como la bicicleta. The Literary Digest, 1899.	Oscar Wilde.
+El hombre ha de fijar un final para la guerra. Si no, la guerra fijará un final para el hombre.	J.F.K.
+A veces es mejor quedarse en casa durmiendo un lunes que pasar toda la semana depurando el código escrito ese lunes.	Christopher Thompson
+A veces pienso que la prueba más fehaciente de que existe vida inteligente en el universo es que nadie ha intentado contactar con nosotros.	Bill Watterson
+A veces pienso que la prueba más fehaciente de que existe vida inteligente en el universo es que nadie ha intentado contactarse con nosotros.	Bill Watterson
+La depuración de código es como una cacería. Una cacería de bugs.	Amit Kalantri
+Es bueno ser importante pero más importante es ser bueno.	Anónimo
+Claro que lo entiendo. Incluso un niño de cinco años podría entenderlo. ¡Que me traigan un niño de cinco años!	Groucho Marx
+El que no valora la vida no se la merece.	Leonardo Da Vinci
+La programación es 10% ciencia, 20% ingenio y 70% intentar que el ingenio funcione con la ciencia.	Anónimo
+Como individuo, la mujer es un ser endeble y defectuoso.	Santo Tomás De Aquino
+Cualquier código tuyo que no hayas visto en más de seis meses parecerá escrito por otra persona.	Anónimo
+Coge el día presente y fíate lo menos posible del mañana.	Horacio
+El peor de los males es creer que los males no tienen remedio.	Francisco Cabarrus
+Dime qué es lo que verdaderamente amas, y me habrás dado con eso una expresión de tu vida, Amas lo que tu vives.	J. G. Fitche
+Ahora que estas lejos de mí, ¡no sabes cuanto te extraño!... ¡pero cuanto me divierto!	Pintada
+La divinidad está en ti, no en conceptos o en libros.	Herman Hesse
+El joven conoce las reglas, pero el viejo las excepciones.	Oliver W. Holmes
+La arquitectura es la ordenación de la luz; la escultura es el juego de la luz.	Antonio Gaudí
+Jamás el esfuerzo desayuda la fortuna.	Fernado Rojas
+Es difícil mejorar código que ya ha sido mejorado muchas veces.	Larry Wall
+El secreto de la vida es la honestidad y el juego limpio...si puedes disimular eso, lo has conseguido.	Groucho Marx
+El hombre más lento, que no pierde de vista el fin, va siempre más veloz que el que vaya sin perseguir un punto fijo.	Gotthold W. Lessing
+La programación es difícil. Las reglas básicas sobre las que todo se construye son muy simples, pero a medida que el programa se desarrolla, comienza a introducir sus propias reglas y leyes. De esta manera, el programador construye un laberinto en el que él mismo puede perderse.	Marijn Haverbeke
+La simplicidad es la clave de la fiabilidad.	Edsger W. Dijkstra
+Cuando todo el mundo está loco, estar cuerdo es una locura.	Paul Samuelson
+El principio más profundo del carácter del ser humano, es el anhelo de ser apreciado.	William James
+Indudablemente nadie se ocupa de quien no se ocupa de nadie.	Thomas Jefferson
+Escribe siempre el código como si la persona que va a mantenerlo fuera un psicópata violento que sabe dónde vives.	Martin Golding
+En el amor lo de menos son los insultos; lo grave es cuando empiezan los bostezos
+C tiene el poder de ensamblador y la comodidad de... ensamblador.	Dennis Ritchie
+El que se alimenta de deseos reprimidos finalmente se pudre.	William Blake
+El que está abajo no cabrá de temer la caída.	Jhon Bunyan
+Sin requisitos ni diseño, programar es el arte de añadir errores a un archivo de texto vacío.	Anónimo
+A los artistas no se les debe hacer monumentos, puesto que ya lo tienen hecho con sus obras.	Antonio Gaudí
+El banquero es un señor que nos presta el paraguas cuando hace sol y nos lo exige cuando empieza a llover.	Mark Twain.
+No es importante que salga bien la primera vez. Es vital que salga bien la última vez.	Anónimo
+La ignorancia afirma o niega rotundamente; la Ciencia duda.	Voltaire
+Un buen programador siempre mira a ambos lados antes de cruzar una calle de sentido único.	Anónimo
+Solo hay dos maneras de escribir programas sin errores. Y la tercera es la que funciona.	Anónimo
+Los componentes más baratos, rápidos y fiables son los que no están.	Anónimo
+Para cada problema complejo, existe una solución que es rápida, sencilla y equivocada.	H. L. Mencken
+Observamos una sociedad cada vez más dependiente de las máquinas, pero que al mismo tiempo las utiliza de forma cada vez más ineficiente.	Douglas Rushkoff
+Copiar y pegar es un error de diseño.	Anónimo
+Aunque a todos les está permitido pensar, muchos se lo ahorran.	Curts Goetx.
+Es amigo mío aquel que me socorre, no el que me compadece.	Thomas Fuller
+El mejor matrimonio sería aquel que reuniese a una mujer ciega con un marido sordo.	Michel De Montaigne.
+Ama a quien no te ama, responde a quien no te llama, andarás carrera vana.	Refrán Español
+Hoy se abusa del sexo y de la violencia.	Sofía Loren
+Es más vergonzoso desconfiar de los amigos, que ser engañado por ellos.	Francois De Larochefoucauld.
+Donde hay espada es mengua vencer con la lengua.	Calderón de la Barca
+El éxito en la vida no se mide por lo que has logrado, sino por los obstáculos que has tenido que enfrentar en el camino.	Anónimo
+La buena suerte no es casual, es producto del trabajo; así la sonrisa de la fortuna tiene que ganarse a pulso.	Emily Dickinson
+Es más fácil engañar que desengañar.	Napoleón
+El hombre nace sin dientes, sin cabello y sin ilusiones. Y muere lo mismo: sin dientes, sin cabellos y sin ilusiones.	Alejandro Dumas
+He disfrutado mucho con esta obra, especialmente en el descanso.	Groucho Marx
+El hombre se cree siempre ser más de lo que es, y se estima menos de lo que vale.	Goethe
+La Historia es como una destilación del chismorreo.	Carlyle.
+Desde que el hombre existe ha habido música. Pero también los animales, los átomos y las estrellas hacen música.	Karlheinz Stockhausen.
+Amar es el más poderoso hechizo para ser amado.	Baltasar Gracián
+Es mejor estar callado y parecer tonto que hablar y despejar las dudas definitivamente.	Groucho Marx
+El amor y la tos no pueden ocultarse.	Proverbio Italiano
+El dinero huele bien venga de donde venga.	Juvenal
+El único hombre que no se equivoca es el que nunca hace nada.	Anónimo.
+La educación es un seguro para la vida y un pasaporte para la eternidad.	Aparisi Y Guijarro.
+La generosidad es el único egoísmo legítimo.	Mario Benedetti
+Diseñar un lenguaje de programación es como un paseo por el parque. El Parque Jurásico.	Larry Wall
+Es inútil, no me hacen ni caso.	Dios
+Cuando el trabajo no constituye una diversión hay que trabajar lo indecible para divertirse.	Jardiel Poncela
+Cuando se muere alguien que nos sueña, se muere una parte de nosotros.	Miguel De Unamuno.
+El peligro es el gran remedio para el aburrimiento.	Graham Green
+Cualquier hombre puede llegar a ser feliz con una mujer, con tal de que no la ame.	Oscar Wilde
+Algo malo debe tener el trabajo porque si no, los ricos lo habrían acaparado.	Mario Moreno Cantinflas
+Cosas hay que aunque se digan, no son para que se entienda.	Calderón de la Barca
+Hay gentes tan llenas de sentido común, que no les queda el más pequeño rincón para el sentido propio.	Miguel De Unamuno.
+De aquel que opina que el dinero puede hacerlo todo, cabe sospechar con fundamento que será capaz de hacer cualquier cosa por dinero.	Benjamin Franklin
+Hay que tomar a las personas como son, no existen otras.	Konrad Adenauer
+He tenido éxito en la vida. Ahora, intento hacer de mi vida un éxito.	Brigitte Bardot
+Cada criatura, al nacer, nos trae el mensaje de que Dios todavía no pierde la esperanza en los hombres.	Rabindranath Tagore
+El cambio no sólo se produce tratando de obligarse a cambiar, sino tomando conciencia de lo que no funciona.	Shakti Gawain
+Limitar las capacidades de un lenguaje para prevenir errores de programación es, en el mejor de los casos, peligroso.	Bjarne Stroustrup
+Hay momentos en que cesar de ser ministro evidencia que se es digno de tal cargo.	Anónimo
+El hombre pasa su vida en razonar sobre el pasado, quejarse de lo presente y en temblar por lo venidero.	Ricarol
+El puede parecer un idiota y actuar como un idiota. Pero no se deje engañar. Es realmente un idiota.	Groucho Marx
+Haz lo que ames, porque así amarás lo que haces.	Anónimo
+Haz lo que ames, porque así amarás lo que haces.	Anónimo
+Citadme diciendo que me han citado mal.	Groucho Marx
+Continuamos siendo imperfectos, peligrosos y terribles, y también maravillosos y fantásticos. Pero estamos aprendiendo a cambiar.	Ray Bradbury
+Gente... ¡infinidad!, Personas... ¡poquísimas!	Joan Sancho
+El hombre que no comete errores usualmente no hace nada.	Edward J. Phelps
+El arte de vencer se aprende en la derrota.	Simón Bolivar
+Con el persuasivo lenguaje de una lagrima.	Winston Churchill
+UNIX es increíblemente simple, pero se necesita ser un genio para entender esa simplicidad.	Dennis Ritchie
+Donde todos piensan igual, nadie piensa mucho.	Rodin
+El árbol de la libertad debe ser regado, de cuando en cuando, con la sangre de patriotas y tiranos.	Pintada.
+El amor hace pasar el tiempo; el tiempo hace pasar el amor.	Proverbio Italiano.
+Considerando el lamentable estado actual de nuestros programas, se puede decir que la programación es definitivamente todavía magia negra, y aún no podemos llamarla una disciplina técnica.	Autor desconocido
+El corazón es un niño: espera lo que desea.	Provebio Turco
+Un mal nombre de método es como las promesas electorales de los políticos. Parece que dice algo, pero si lo piensas, no está claro de qué se trata.	Steve McConnell
+Debo confesar que nací a una edad muy temprana.	Groucho Marx
+Hazles comprender que no tienen en el mundo otro deber que la alegría.	Paul Claudel
+El hombre feliz es más raro que un cuervo blanco.	Juvenal
+Si quieres que el código sea fácil y rápido de escribir, hazlo fácil de leer.	Robert C. Martin
+Si le das un programa a una persona, la mantendrás ocupada por un día. Si le enseñas a programar, la mantendrás ocupada para toda la vida.	Waseem Latif
+La fuerza hidráulica mas poderosa del universo, es la lágrima de una mujer.	Carlos Fisas
+Cualquier esfuerzo resulta ligero con el hábito.	Tito Livio
+El cine, ese invento del demonio.	Antonio Machado.
+(En el guardarropa) Me deja su chaqueta, señor Marx?	Si, que la tengan lista para el jueves. - Groucho Marx
+Solo hay dos tipos de lenguajes de programación: aquellos de los que la gente siempre se queja y aquellos que nadie usa.	Bjarne Stroustrup
+Ella había perdido el arte de la conversación, pero no, la capacidad de hablar.	George Bernard Shaw
+El ordenador nos permite cometer errores mucho más rápido que cualquier otro invento de la humanidad, con la posible excepción de la tequila y las armas de fuego.	Mitch Radcliffe
+El cine tiene que producir sosiego.	Azorín.
+Envejecer es el único medio de vivir mucho tiempo.	Daniel
+Un lenguaje que no cambia tu forma de pensar sobre la programación no es digno de ser aprendido.	Alan J. Perlis
+El beso es el contacto de dos epidermis y la fusión de dos fantasías.	Alfred De Musset
+A los ordenadores se les da bien seguir instrucciones, no leerte la mente.	Anónimo
+Medir la productividad de un programador por el número de líneas de código es como evaluar la construcción de un avión por su peso.	Bill Gates
+Hay que trabajar con odio o con amor, pero sobretodo con conocimientos.	Joan Ponc
+Es cierto que no te quiero tanto como cuando éramos novios, pero a mí nunca me han gustado las mujeres casadas.	Proverbio Americano.
+La forma en que se utiliza la inteligencia es más importante que su nivel.	Steve McConnell
+Si no salió bien a la primera, llámalo versión 1.0.	Anónimo
+El genio comienza las grandes obras, pero sólo el trabajo las acaba.	Joseph Joubert
+El césped siempre crece más verde al otro lado de la valla.	Anónimo
+Con audacia se puede intentar todo; mas no se puede conseguir todo.	Napoleón Bonaparte
+El humor es el espejo donde se refleja lo estúpido del ser humano.	Manuel Gila
+Cuando no se puede lo que se quiere, hay que querer lo que se puede.	Terencio.
+Hay un pasado que se fue para siempre pero hay un futuro que todavía es nuestro.	F.W. Robertson
+En realidad, los seguros de vida son seguros de muerte.	Ramón Gomez De La Serna
+Algunos nacen grandes; otros hacen grandes cosas, y otros se ven aplastados por ellas.	Willian Shakespeare
+Es imposible ocultar el amor en los ojos de que ama.	Jhon Crowne
+Estamos especializados en una armoniosa repetición del desastre y la estupidez.	Terenci Moix
+A un hombre sólo le pido tres cosas: que sea guapo, implacable y estúpido.	Dorothy Parker
+Cuando la lucha de un hombre comienza dentro de sí, ese hombre vale algo.	Robert Browning
+Un software no está terminado hasta que el último usuario ha muerto.	Anónimo
+Duda siempre de ti mismo, hasta que los datos no dejen lugar a dudas.	Louis Pasteur
+El amor es como el fuego: ven antes el humo los que están fuera que las llamas los que están dentro.	Jacinto Benavente
+Cada hombre puede mejorar su vida mejorando su actitud.	Héctor Tassinari
+El amor consuela como el resplandor del sol después de la lluvia.	W. Shakespeare
+La adulación es como la sombra, no nos hace más grandes ni más pequeños.	Proverbio Danés
+El mejor automovilista es aquél que conduce con imaginación...imagina que su familia va con él en el coche.	Henry Ford
+El amor nace del recuerdo, vive de la inteligencia y muere por olvido.	Ramón Llull
+El arquitecto es el hombre sintético, el que es capaz de ver las cosas en conjunto antes de que estén hechas.	Antonio Gaudí
+Habla en voz baja, habla despacio y no digas demasiado.	John Wayne.
+Es una ley inexorable en la vida de los sexos, la acción anafrodisíaca de la costumbre.	Gregorio Marañon
+'Yo soy feliz', dijo. Naturalmente, se trataba de un necio.	Proverbio Persa
+El hombre es una inteligencia servida por órganos.	Fayus
+Java es C++ sin las pistolas, cuchillos y porras.	James Gosling
+Hablar oscuramente lo sabe hacer cualquiera, con claridad lo hacen muy pocos.	Galileo Galilei
+La justicia es incidental a la ley y el orden.	J.Edgar Hoover.
+Cuando las personas tienen libertad para hacer lo que quieren, por lo general comienzan a imitarse mutuamente.	Francoise Sagan
+Durante mucho tiempo fue un misterio para mí cómo algo tan caro y tecnológico podía ser tan inútil. Pronto me di cuenta de que el ordenador es una máquina tonta capaz de realizar tareas increíblemente inteligentes, mientras que los programadores son personas inteligentes con talento para cometer estupideces increíbles. En resumen, se encontraron el uno al otro.	Bill Bryson
+Dicen que el hombre no es hombre mientras no oye su nombre de labios de una mujer.	Antonio Machado
+Con C, es fácil dispararte en el pie. Con C++, es más difícil, pero si lo logras, te arrancará la pierna entera.	Bjarne Stroustrup
+El humor se tiene o no se tiene y es la manera de ver las cosas con claridad.	Antonio Mingote
+El principal problema con los programadores es que no puedes prever sus errores.	Seymour Cray
+Algunos problemas es mejor no resolverlos, sino evitarlos.	Tony Hoare
+El amor es la pasión por la dicha del otro.	Cyrano De Bergerac
+El código eliminado es código depurado.	Anónimo
+A veces, los mejores programas se crean en papel. Programarlos es algo secundario.	Max Kanat-Alexander
+Es infinitamente más bello dejarse engañar diez veces que perder una vez la fe en la Humanidad.	Heinz Zschokke.
+Cuando llegue la prosperidad no la uses toda.	Confucio
+Para entender un algoritmo, tienes que verlo.	Donald Knuth
+La fuerza es el derecho de las bestias.	Marco Julio Ciceron.
+Caer está permitido. ¡Levantarse es obligatorio!.	Proverbio Ruso
+En resumidas cuentas, en este mundo, cada cual consigue lo que se merece. Pero sólo quienes alcanzan el éxito lo reconocen.	Georges Simenon
+El jurado está compuesto por doce personas elegidas para decidir quien tiene el mejor abogado.	Robert L. Frost
+La esperanza es un buen desayuno pero una mala cena.	Francis Bacon
+La imaginación consuela a los hombres de lo que no pueden ser. El humor de lo que son.	Winston Churchill
+Sea lo que sea que creemos nuevo, debemos dar a la gente la oportunidad de migrar de las herramientas e ideas antiguas a las nuevas.	Bjarne Stroustrup
+La pereza es el estado natural de un programador, del cual nace un buen algoritmo.	Folklore popular
+Al perro que tiene dinero se le llama señor perro.	Proverbio Arabe
+El amor no es sólo un sentimiento. Es también un arte.	Honorato De Balzac.
+Si me pidieran que eligiera un lenguaje moderno para reemplazar a Java, elegiría Scala.	James Gosling
+Prepara, apunta, fuego: es el enfoque rápido para el desarrollo de software. Prepara, apunta, apunta, apunta, apunta: es el enfoque lento.	Anónimo
+El cobarde muere muchas veces. El valiente sólo una.	Willian Shakespeare
+Cuando un hombre se muestra indiferente hacia una mujer supone un desafío para ella.	Manuel Gila
+El amor puede ser un pasatiempo y una tragedia.	Isadora Duncan.
+Cuando alguien dice teóricamente, realmente quiere decir no.	Dave Parnas.
+El matrimonio es una gran institución. Por supuesto, si te gusta vivir en una institución.	Groucho Marx
+Al utilizar por primera vez este tipo de armas nos alineamos con los bárbaros de las primeras edades.	J.Robert Openheimer.
+Hay ocasiones en que cuantos nos rodean no merecen sino un poco de comedia. Seamos, entonces, un poco farsantes.	Benjamín Jarnes.
+Es un gran error creerse más de lo uno es, o menos de lo que uno vale.	Goethe
+Si la depuración es el proceso de eliminar errores, entonces la programación debe ser el proceso de introducirlos.	Anónimo
+El amor no tiene cura, pero es la única medicina para todos los males.	Leonard Cohen
+640 KB deberían ser suficientes para cualquiera.	Ańonimo
+Así como pintar un cuadro es un arte para el alma, escribir un programa es un arte para la mente.	Volnik
+Ama a una nube, ama a una mujer, pero ama.	Theophile Gautier
+Aquello que se considera ceguera del destino es en realidad propia miopía.	Willian Faulkner
+Era ese tipo de persona que se pasa su vida haciendo cosas que detesta para conseguir dinero que no necesita y comprar cosas que no quiere para impresionar a la gente que odia.	Emile Henry Gauvreay
+Era ese tipo de persona que se pasa su vida haciendo cosas que detesta para conseguir dinero que no necesita y comprar cosas que no quiere para impresionar a la gente que odia.	Emile Henry Gauvreay
+Comentar tu código es como limpiar el baño. Nunca quieres hacerlo, pero es realmente importante para que tus invitados tengan una experiencia agradable.	Anónimo
+El matrimonio es tratar de solucionar entre dos problemas que nunca hubieran surgido al estar solos.	Eddy Cantor
+La fascinación lírica por las drogas es un experimento por el que todos hemos pasado, pero a la larga resulta improductivo. Emborracha, pero no alimenta.	José Ángel Mañas
+De mis disparates de juventud, lo que me da más pena no es haberlos cometido, sino no poder volver a cometerlos.	Pierre Benoit
+El amor es una llama que consume y consume porque es fuego, un fuego eterno... mientras dure.	Vinicius de Moraes
+Disculpen si les llamo caballeros, pero es que no les conozco muy bien.	Julius Marx Groucho
+El mejor camino para salir es siempre a través.	Robert Frost
+El que se guarda un elogio, se queda con algo ajeno.	Pablo Picasso
+Es evidente silogismo, que el corazón acusado es el fiscal de sí mismo.	Calderón de la Barca
+Consulta el ojo de tú enemigo, porque es el primero que ve tus defectos.	Antistenes
+Para entender la recursividad, primero tienes que entender la recursividad.	Anónimo
+La belleza es verdad, la verdad es belleza.	John Keats
+El único medio de vencer en una guerra es evitarla.	George C. Marshall
+Primero, aprende la ciencia de la computación y toda la teoría. Después, desarrolla tu propio estilo de programación. Luego, olvida todo y simplemente programa.	George Carrette
+La comunicación es la llave del éxito.	Eduardo Aguilar Kublí
+A menudo se echa en cara ante la juventud el creer que el mundo comienza con ella. Cierto. Pero la vejez cree aún más a menudo que el mundo acaba con ella. ¿Qué es peor?	Ch. Friedrich Kebbel
+Es mejor enseñar a la gente arriesgándote a que se vayan, que no hacer nada y arriesgarte a que se queden.	Anónimo
+El cristianismo ha hecho mucho por el amor convirtiéndolo en pecado.	Anatole France
+La disciplina es la parte más importante del éxito.	Truman Capote
+El software y las catedrales tienen mucho en común: primero los construimos y luego rezamos.	Anónimo
+La ignorancia es la madre del miedo.	Kames
+Es cuando nos olvidamos de nosotros, cuando hacemos cosas que merecen ser recordadas.	Anónimo.
+El que nada duda, nada sabe.	Proverbio Griego
+Desde el momento en que cogí su libro me caí al suelo rodando de risa. Algún día espero leerlo.	Groucho Marx
+Creo que parte de mi amor a la vida se lo debo a mi amor a los libros.	Bioy Casares.
+La programación actual es una carrera entre los desarrolladores de software, que se esfuerzan por escribir programas con una mayor y mejor tolerancia a idiotas, y el universo, que intenta producir idiotas más grandes y mejores. Hasta ahora, el universo va ganando.	Rick Cook
+Casarse está bien. No casarse está mejor.	San Agustín.
+El hombre es un lobo para el hombre.	Plauto
+En el cine, incluso la naturalidad es algo que se fabrica.	Manuel Gutiérrez Aragón.
+La gente es alérgica al cambio.	Grace Hopper
+El cocinero sin probar un bocado de los manjares que ha hecho, suele quedar satisfecho de sólo haberlos guisado.	Calderón de la Barca
+El código malo no es realmente malo. Simplemente es un incomprendido.	Anónimo
+La alegría ha sido llamada en buen tiempo del corazón.	Charles Smiles
+La antigüedad del tiempo es la juventud del mundo.	Francis Bacon.
+El amor es una tontería hecha por dos.	Napoleón
+El dinero siempre está ahí; sólo cambian los bolsillos.	Gertrude Stein.
+La confianza en sí mismo es el primer secreto del éxito.	Ralph Waldo Emerson.
+Buscamos llenar el vacío de nuestra individualidad y por un breve momento disfrutamos de la ilusión de estar completos. Pero es sólo una ilusión: el amor une y después divide.	Lawrence Durrell
+El arte de la vida consiste en hacer de la vida una obra de arte.	Valtour
+En la pelea, se conoce al soldado; sólo en la Victoria, se conoce al caballero.	Jacinto Benavente.
+El camino más seguro es el del medio.	Ovidio
+La amabilidad es la forma más segura del desdén.	Heinrich Böll.
+Aquel que duda y no investiga, se torna no sólo infeliz, sino también injusto.	Blas Pascal.
+Esto de los años / yo no lo entiendo & que aunque es bueno cumplirlos / no es bueno tenerlos.	Francisco De Rojas
+Yo inventé el término "orientado a objetos" y puedo afirmar que no me refería a C++.	Alan Kay
+Aunque personalmente me satisfaga que se hayan inventado los explosivos, creo que no debemos mejorarlos.	Winston Churchill
+El miedo es para el espíritu tan saludable como el baño para el cuerpo.	Máximo Gorki.
+Habría que añadir dos derechos a la lista de derechos del hombre: el derecho al desorden y el derecho a marcharse.	Charles Baudelaire.
+Hay que mejorar la condición femenina. Las cocinas son demasiado pequeñas, los fregaderos demasiado bajos y los mangos de las cacerolas están mal aislados.	George Wolinski.
+Existen dos maneras de ser feliz en esta vida: una es hacerse el idiota y la otra es serlo.	Sigmund Freud
+Existen dos maneras de ser feliz en esta vida: una es hacerse el idiota y la otra es serlo.	Sigmund Freud
+En cuanto se concede a la mujer la igualdad con el hombre, se vuelve superior a él.	Margaret Thatcher
+En cuanto se concede a la mujer la igualdad con el hombre, se vuelve superior a él.	Margaret Thatcher
+El justo y el injusto no son productos de la naturaleza, sino de la ley.	Arquelao
+El ardor juvenil en sus comienzos es fogoso, pero languidece fácilmente y no dura; es el humo de una fogata liviana.	Lucio Anneo Seneca.
+Amo la traición, pero odio al traidor.	Cayo Julio César
+El verdadero héroe de algunas obras literarias es el lector que las aguanta.	Sergio Golworz
+Con la invención de la bomba atómica he llegado a ser la muerte, el destructor de mundos.	J.Robert Openheimer.
+La educación de la mujer no puede llamarse tal educación, sino doma, pues se propone por fin la obediencia, la pasividad y la sumisión.	Emilia Pardo Bazán
+El que vive de esperanzas corre el riesgo de morirse de hambre.	Benjamin Franklin
+Hay libros cortos que, para entenderlos como se merecen, se necesita de una vida muy larga.	Francisco De Quevedo.
+Cuando se cree un lenguaje de programación que permita a los programadores escribir código en inglés, se descubrirá que no saben inglés.	Anónimo
+El amigo seguro se conoce en la acción insegura.	Anónimo
+Envejecer no es tan malo cuando se piensa en la alternativa.	Maurice Chevalier
+Facilitar una buena acción es lo mismo que hacerla.	Mahoma.
+Perl es el único lenguaje que se ve igual antes y después del cifrado RSA.	Keith Bostic
+Cuando apuntas con un dedo, recuerda que los otros tres dedos te señalan a ti.	Proverbio Ingles.
+Disculpen si les llamo caballeros, pero es que no les conozco muy bien.	Groucho Marx
+Caminar sobre el agua y desarrollar software a partir de una especificación es fácil… si ambos están congelados.	Edward V Berard
+Desde el momento en que cogí este libro hasta que lo dejé, me entraron fuertes convulsiones de risa.	Groucho Marx
+La prueba por analogía es un engaño.	Bjarne Stroustrup
+Jamás aceptaría pertenecer a un club que admitiera como miembro a alguien como yo.	Groucho Marx
+El mundo es un espejo que refleja la imagen del observador.	William W. Thackerry
+El estudioso es el que lleva a los demás a lo que él ha comprendido: la Verdad.	Santo Tomás De Aquino
+La programación se suele enseñar con ejemplos.	Niklaus Wirth
+Es una locura amar, a menos que se ame con locura.	Proverbio Latino
+La amistad es una mente en dos cuerpos.	Mencius
+Del árbol del silencio pende el fruto de la seguridad.	Proverbio Árabe
+Programar en C es como un baile rápido sobre un suelo recién pulido por personas con navajas afiladas en las manos.	Waldi Ravens
+Hay algo que Dios ha hecho mal. A todo le puso límites menos a la tontería.	Konrad Adenauer
+El hombre se adentra en la multitud por ahogar el clamor de su propio silencio.
+Hay que seguir la lucha con lo que podamos hasta que podamos.	Bbenito Juarez
+El amor es como el fuego, que si no se comunica se apaga.	Giovanni Papini.
+Cada uno es ortodoxo con respecto a sí mismo.	John Locke
+El hombre que pretende obrar guiado exclusivamente por la razón, está condenado a obrar muy raramente.	Gustabe Le Bon
+La comunicación efectiva es la habilidad para trasmitir los sentimientos, creencias, y opiniones propias con honestidad, autorrespeto y oportunidad; al mismo tiempo respetar los derechos de los demás.	Norman Vincent
+¿Funciona? No lo toques.	Cualquier programador
+El cerebro es un órgano maravilloso. Comienza a trabajar nada más levantarnos y no deja de funcionar hasta entrar en la oficina.	Robert Frost
+Cuando ves a una persona un día tras otro, la frescura se pierde, la relación se transforma, la pasión se enfría y empiezas a buscar a otra persona.	Sylvester Stallone
+Al inteligente se le puede convencer; al tonto, persuadir.	Curt Goetz
+Incluso en el trono más alto, uno se sienta sobre sus propias posaderas.	Michel De Montaigne
+El ambicioso es un esclavo de lo mucho que desea: el hombre libre es el que nada desea.	Edward Young
+El que todo lo juzga fácil encontrara la vida difícil.	Lao Tse
+La justicia militar es a la justicia lo que la música militar es a la música.	Groucho Marx
+De estas, ahí una para ti.	Inscripcion En Un Reloj De Sol
+Es inútil volver sobre lo que ha sido y no es ya.	Frideric Chopin
+El que a nadie ama, me parece que por nadie es amado.	Democrito
+El hombre es un milagro químico que sueña.	Alfred Conde
+En la tierra nada se presta tanto para alegrar al melancólico, para entristecer al alegre, para infundir coraje a los que desesperan, para enorgullecer al humilde y debilitar la envidia y el odio, como la Música.	Martín Lutero
+Si optimizas todo lo que puedes, serás eternamente infeliz.	Donald Knuth
+Si eres bueno depurando, significa que has pasado mucho tiempo haciéndolo. Yo no quiero ser bueno depurando.	Michael C. Feathers
+Detras de cada gran hombre hay una gran mujer. Detrás de ella, está su esposa.	Groucho Marx
+Espero ya el Ultimo Orgasmo con la Señora Muerte... tarde o temprano...	Joan Sancho
+El mundo no está amenazado por las malas personas, sino por aquellos que permiten la maldad.	Albert Einstein
+La hora perfecta de comer es, para el rico cuando tiene ganas, y para el pobre, cuando tiene qué.	Luis Vélez De Guevara.
+El único medio de salir ganando de una discusión es evitarla.	Dale Carnegie
+Además de la habilidad matemática, una cualidad vital para un programador es un dominio excepcionalmente bueno de su lengua materna.	Edsger W. Dijkstra
+Para escribir código limpio, primero escribimos código sucio y luego lo refactorizamos.	Robert Martin
+La edad madura es aquella en la cual se es todavía joven, pero con mucho esfuerzo.	Jean L. Banault
+Cuando hables, procura que tus palabras sean mejores que el silencio.	Proverbio Indio.
+El optimista cree que este mundo es inmejorable. El pesimista teme que así sea.	Doug Larson
+La alegría, cuanto más se gasta más queda.	R.W.Emerson
+El gran libro, siempre abierto y que conviene esforzarse en leer, es el de la Naturaleza.	Antonio Gaudí
+Al perro que tiene dinero se le llama Sr. Perro.	Proverbio árabe
+La dificultad de trabajar con un programador es que no puedes entender lo que está haciendo hasta que es demasiado tarde.	Seymour Cray
+Disfruta hoy, es más tarde de lo que crees.	Proverbio Chino
+El hombre encuentra a Dios detrás de cada puerta que la ciencia logra abrir.	Albert Einstein
+No te preocupes si algo no funciona. Si todo funcionara, te despedirían.	Ley de Mosher sobre Ingeniería de Software
+La habilidad es lo que permite hacer ciertas cosas; la motivación determina lo que se hace y la actitud cuán bien se hace.	Lou Holtz
+La constancia es la virtud por la que todas las demás dan su fruto.	Arturo Graf
+El pobre carece de muchas cosas; pero el avaro, carece de todo.	Lucio Anneo Seneca.
+Hay pocos lazos de amistad tan fuertes que no puedan ser cortados por cabello de mujer.	Ramon Y Cajal
+Cuando un hombre dice que con dinero puede hacer cualquier cosa eso significa: que no tiene nada.	Edgar W. Howe
+El único sentido de esta vida consiste en ayudar a establecer el reino de Dios.	León Tolstoi.
+El entusiasmo es el pan diario de la juventud. El escepticismo, el vino diario de la vejez.	Pear S. Buck
+En otras palabras, el macho, desde el punto de vista genético, es una hembra incompleta, un aborto con patas.	Valerie Solanas
+El mejor profeta del futuro es el pasado.	Lord Byron
+En teoría, la teoría y la práctica son inseparables. En la práctica, no es así.	Yogi Berra
+El hombre no es más que un omnívoro que viste pantalones.	Thomas Carlyle
+El destino es el que baraja las cartas, pero nosotros los que las jugamos.	Arthur Schopenhauer
+Cuando la edad enfría la sangre y los placeres son cosa del pasado, el recuerdo más querido sigue siendo el último, y nuestra evocación más dulce, la del primer beso.	Lord Byron
+El sabio no dice lo que sabe, y el necio no sabe lo que dice.	Proverbio Chino
+La gente se arregla todos los días el cabello. ¿Por qué no el corazón?.	Proverbio Chino
+El corazón de un hombre es una rueda de molino que trabaja sin cesar; se nada echáis a moler corréis el riesgo de que se triture a sí misma.	Martin Lutero
+En el amor hay dos males: la guerra y la paz.	Horacio
+La justicia te proporcionará paz, y también trabajos.	Ramón Llull
+El nacimiento y la muerte no son dos estados distintos, sino dos aspectos del mismo estado.	Gandhi
+Desdichado el que duerme en el mañana.	Hesiodo
+El rico no gozaría nada si le faltase la envidia de los demás.	Alfredo Panzini.
+Algunos encuentran el silencio insoportable porque tienen demasiado ruido dentro de ellos mismos.	Robert Fripp
+Creo que Microsoft llamó a su tecnología .NET para que no apareciera en los listados de directorios de Unix.	Oktal
+El algoritmo de Euclides es el abuelo de todos los algoritmos, porque es el algoritmo no trivial más antiguo que ha sobrevivido hasta nuestros días.	Donald Knuth
+En ningún momento he dudado que las mujeres son tontas. Al fin y al cabo el Todopoderoso las creó a imagen y semejanza de los hombres.	George Eliot
+Esperar sentido común en la gente es una prueba de no tener sentido común.	Eugene O'neill

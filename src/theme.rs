@@ -26,6 +26,8 @@ pub const CARET: Color32 = CORRECT;
 
 pub const TITLE_SIZE: f32 = 13.0;
 pub const PHRASE_SIZE: f32 = 28.0;
+/// Autor de la frase: informativo, debajo del texto que se tipea.
+pub const AUTHOR_SIZE: f32 = 14.0;
 pub const STATS_SIZE: f32 = 15.0;
 pub const HINT_SIZE: f32 = 12.0;
 

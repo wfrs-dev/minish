@@ -13,9 +13,9 @@ use eframe::egui::{
 };
 
 use crate::{
+    phrases::{self, Phrase, Rng},
     session::Session,
     theme,
-    words::{self, Rng},
 };
 
 /// Tamaño fijo de la ventana.
@@ -32,17 +32,15 @@ const EDGE_MARGIN: f32 = 24.0;
 const PANEL_MARGIN_X: i8 = 28;
 const PANEL_MARGIN_Y: i8 = 22;
 
-/// Palabras por intento (el mockup muestra tres líneas de texto).
-const WORD_COUNT: usize = 18;
 /// Ancho máximo del bloque de texto: en pantallas anchas no se estira.
 const PHRASE_MAX_WIDTH: f32 = 640.0;
 
 /// Alto aproximado de todo lo que no es la frase: título (~18), espacios
-/// (22 + 26), métricas (~18) y pista del atajo (10 + 16).
+/// (22 + 10 + 18), autor (~19), métricas (~18) y pista del atajo (10 + 16).
 ///
 /// Sirve para repartir el aire arriba y abajo por igual, así que no necesita
 /// precisión exacta; el test de layout es el que garantiza que la frase entre.
-const CHROME_HEIGHT: f32 = 110.0;
+const CHROME_HEIGHT: f32 = 140.0;
 
 /// Alto útil dentro de los márgenes del panel.
 const fn content_height() -> f32 {
@@ -57,6 +55,12 @@ enum Action {
 
 pub struct TypingApp {
     rng: Rng,
+    /// Todas las frases usables, cargadas una sola vez al arrancar.
+    phrases: Vec<Phrase>,
+    /// La frase de la prueba en curso. Su texto también vive en la `Session`,
+    /// que es la que acumula lo tipeado; acá se guarda para poder mostrar el
+    /// autor, que se ve pero no se tipea.
+    phrase: Phrase,
     session: Session,
     font: egui::FontId,
     /// La posición se pide una sola vez, cuando ya se conoce el monitor.
@@ -68,18 +72,40 @@ impl TypingApp {
         theme::apply(ctx);
 
         let mut rng = Rng::from_entropy();
-        let session = Session::new(words::phrase(&mut rng, WORD_COUNT));
+        let phrases = phrases::all();
+        let first = phrases[rng.index(phrases.len())].clone();
 
         Self {
+            session: Session::new(first.chars()),
+            phrase: first,
+            phrases,
             rng,
-            session,
             font: theme::phrase_font(),
             placement_requested: false,
         }
     }
 
     fn restart(&mut self) {
-        self.session = Session::new(words::phrase(&mut self.rng, WORD_COUNT));
+        let next = self.next_phrase();
+        self.session = Session::new(next.chars());
+        self.phrase = next;
+    }
+
+    /// Elige la próxima frase evitando la que está en pantalla.
+    ///
+    /// Con cientos de frases el choque es rarísimo, pero justo por eso parece
+    /// un bug cuando pasa: apretás Ctrl+Enter y la frase "no cambió".
+    ///
+    /// Un solo reintento, no un `loop`: si algún día el archivo queda con dos
+    /// frases repetidas, reintentar sin límite cuelga la ventana en silencio.
+    fn next_phrase(&mut self) -> Phrase {
+        let mut index = self.rng.index(self.phrases.len());
+
+        if self.phrases.len() > 1 && self.phrases[index] == self.phrase {
+            index = self.rng.index(self.phrases.len());
+        }
+
+        self.phrases[index].clone()
     }
 
     /// Ctrl+Enter (Cmd+Enter en macOS) reinicia: sirve a mitad de la prueba y
@@ -258,11 +284,30 @@ impl eframe::App for TypingApp {
                 ui.add_space(22.0);
                 ui.add(Label::new(egui::WidgetText::Galley(galley)));
 
-                ui.add_space(26.0);
+                // El autor va debajo del texto: dice de quién es la frase y,
+                // en gris, deja claro que no forma parte de la práctica.
+                if let Some(caption) = author_caption(&self.phrase) {
+                    ui.add_space(10.0);
+                    ui.label(
+                        RichText::new(caption)
+                            .size(theme::AUTHOR_SIZE)
+                            .italics()
+                            .color(theme::MUTED),
+                    );
+                }
+
+                ui.add_space(18.0);
                 self.draw_footer(ui);
             });
         });
     }
+}
+
+/// El autor tal como se muestra: con raya y en gris, debajo de la frase.
+///
+/// Está fuera del `impl` para poder testearlo sin abrir una ventana.
+fn author_caption(phrase: &Phrase) -> Option<String> {
+    phrase.author().map(|author| format!("— {author}"))
 }
 
 /// Describe la frase como un `LayoutJob`: **qué** se pinta, sin pintarlo.
@@ -312,27 +357,27 @@ fn phrase_job(
 mod tests {
     use super::*;
 
-    /// L1: con la ventana de tamaño fijo, ninguna frase generada puede desbordar
-    /// el alto reservado. Se mide con el mismo motor de texto que usa la app
-    /// (`ctx.run_pass` corre un frame sin ventana ni GPU).
+    /// L1: con la ventana de tamaño fijo, **toda** frase del archivo tiene que
+    /// entrar en el alto reservado, ya con la línea del autor debajo. Se mide
+    /// con el mismo motor de texto que usa la app (`ctx.run_pass` corre un frame
+    /// sin ventana ni GPU).
     #[test]
     fn ninguna_frase_desborda_la_ventana() {
         let ctx = egui::Context::default();
         let font = theme::phrase_font();
+        let phrases = phrases::all();
 
-        let mut peor_alto: f32 = 0.0;
-        let mut peor_lineas = 0usize;
+        let mut peor: Option<(f32, usize, &'static str)> = None;
 
         let mut output = ctx.run_pass(Default::default(), |ctx| {
-            let mut rng = Rng::from_seed(2024);
-
-            for _ in 0..200 {
-                let target = words::phrase(&mut rng, WORD_COUNT);
-                let job = phrase_job(&target, &[], &font, PHRASE_MAX_WIDTH, false);
+            for phrase in &phrases {
+                let job = phrase_job(&phrase.chars(), &[], &font, PHRASE_MAX_WIDTH, false);
                 let galley = ctx.fonts_mut(|fonts| fonts.layout_job(job));
+                let alto = galley.size().y;
 
-                peor_alto = peor_alto.max(galley.size().y);
-                peor_lineas = peor_lineas.max(galley.rows.len());
+                if peor.is_none_or(|(peor_alto, _, _)| alto > peor_alto) {
+                    peor = Some((alto, galley.rows.len(), phrase.text()));
+                }
             }
         });
 
@@ -340,30 +385,41 @@ mod tests {
         // limpiarlo explícitamente antes de soltar la salida del frame.
         output.textures_delta.clear();
 
+        let (peor_alto, peor_lineas, texto) = peor.expect("no se cargó ninguna frase");
+
         assert!(
             CHROME_HEIGHT + peor_alto <= content_height(),
-            "la frase más alta mide {peor_alto} px ({peor_lineas} líneas): con {CHROME_HEIGHT} px de chrome no entra en {} px",
+            "la frase más alta mide {peor_alto} px ({peor_lineas} líneas): con {CHROME_HEIGHT} px de chrome no entra en {} px\n{texto:?}",
             content_height()
         );
     }
 
-    /// L2: el ancho del texto entra en la ventana con sus márgenes.
+    /// L2: ni el texto ni el autor se salen del ancho reservado.
     #[test]
     fn ninguna_frase_desborda_el_ancho() {
         let ctx = egui::Context::default();
         let font = theme::phrase_font();
+        let author_font = egui::FontId::new(theme::AUTHOR_SIZE, egui::FontFamily::Proportional);
+        let phrases = phrases::all();
 
         let mut peor_ancho: f32 = 0.0;
+        let mut peor_autor: (f32, &'static str) = (0.0, "");
 
         let mut output = ctx.run_pass(Default::default(), |ctx| {
-            let mut rng = Rng::from_seed(99);
-
-            for _ in 0..200 {
-                let target = words::phrase(&mut rng, WORD_COUNT);
-                let job = phrase_job(&target, &[], &font, PHRASE_MAX_WIDTH, false);
+            for phrase in &phrases {
+                let job = phrase_job(&phrase.chars(), &[], &font, PHRASE_MAX_WIDTH, false);
                 let galley = ctx.fonts_mut(|fonts| fonts.layout_job(job));
-
                 peor_ancho = peor_ancho.max(galley.size().x);
+
+                if let Some(caption) = author_caption(phrase) {
+                    let galley = ctx.fonts_mut(|fonts| {
+                        fonts.layout_no_wrap(caption, author_font.clone(), theme::MUTED)
+                    });
+
+                    if galley.size().x > peor_autor.0 {
+                        peor_autor = (galley.size().x, phrase.author().unwrap_or(""));
+                    }
+                }
             }
         });
 
@@ -372,6 +428,12 @@ mod tests {
         assert!(
             peor_ancho <= PHRASE_MAX_WIDTH,
             "la frase más ancha mide {peor_ancho} px"
+        );
+        assert!(
+            peor_autor.0 <= PHRASE_MAX_WIDTH,
+            "el autor más ancho mide {} px: {:?}",
+            peor_autor.0,
+            peor_autor.1
         );
     }
 
@@ -430,5 +492,101 @@ mod tests {
             "se escribió {:?}",
             app.session.typed()
         );
+    }
+
+    /// L5: los acentos se tipean y cuentan como acierto.
+    ///
+    /// Antes el vocabulario era ASCII puro y comparar carácter por carácter
+    /// alcanzaba; con frases reales hay que comprobar que la `ó` del texto es
+    /// la misma `ó` que llega por teclado.
+    #[test]
+    fn los_acentos_se_tipean_bien() {
+        let ctx = egui::Context::default();
+        let mut app = TypingApp::new(&ctx);
+
+        let phrase = phrases::all()
+            .into_iter()
+            .find(|p| p.text().contains('á') && p.text().contains('ñ'))
+            .expect("el archivo debería tener frases con á y ñ");
+
+        app.session = Session::new(phrase.chars());
+        app.phrase = phrase.clone();
+
+        let mut now = Instant::now();
+        for (tipeados, c) in phrase.chars().into_iter().enumerate() {
+            now += std::time::Duration::from_millis(120);
+            app.session.push(c, now);
+            assert_eq!(
+                app.session.typed().len(),
+                tipeados + 1,
+                "se rechazó la pulsación {c:?}"
+            );
+        }
+
+        assert!(app.session.is_finished(), "la sesión no terminó");
+        assert_eq!(
+            app.session.correct_keystrokes(),
+            phrase.text().chars().count() as u32,
+            "algún carácter con acento se contó como error"
+        );
+    }
+
+    /// L6: la fuente tiene glifo para todos los caracteres del archivo.
+    ///
+    /// Un acento sin glifo no falla: egui dibuja un cuadrado vacío y la frase
+    /// se vuelve intipeable sin ningún error visible.
+    #[test]
+    fn todos_los_caracteres_tienen_glifo() {
+        let ctx = egui::Context::default();
+        let font = theme::phrase_font();
+        let author_font = egui::FontId::new(theme::AUTHOR_SIZE, egui::FontFamily::Proportional);
+        let phrases = phrases::all();
+
+        let mut faltantes: Vec<&'static str> = Vec::new();
+
+        let mut output = ctx.run_pass(Default::default(), |ctx| {
+            for phrase in &phrases {
+                if !ctx.fonts_mut(|fonts| fonts.has_glyphs(&font, phrase.text())) {
+                    faltantes.push(phrase.text());
+                }
+
+                if let Some(author) = phrase.author()
+                    && !ctx.fonts_mut(|fonts| fonts.has_glyphs(&author_font, author))
+                {
+                    faltantes.push(author);
+                }
+            }
+        });
+
+        output.textures_delta.clear();
+
+        assert!(
+            faltantes.is_empty(),
+            "{} textos tienen caracteres sin glifo, por ejemplo {:?}",
+            faltantes.len(),
+            &faltantes[..faltantes.len().min(3)]
+        );
+    }
+
+    /// L7: el autor se muestra debajo, con raya; si no hay autor, no se muestra
+    /// nada (ni una raya suelta).
+    #[test]
+    fn el_autor_se_muestra_con_raya() {
+        let phrases = phrases::all();
+
+        let con_autor = phrases
+            .iter()
+            .find(|p| p.author().is_some())
+            .expect("el archivo tiene frases con autor");
+        let sin_autor = phrases
+            .iter()
+            .find(|p| p.author().is_none())
+            .expect("el archivo tiene frases sin autor");
+
+        assert_eq!(
+            author_caption(con_autor),
+            Some(format!("— {}", con_autor.author().unwrap()))
+        );
+        assert_eq!(author_caption(sin_autor), None);
     }
 }
