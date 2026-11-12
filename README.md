@@ -14,6 +14,57 @@ terminar te muestra palabras por minuto, precisión y ritmo.
 
 ![minish corriendo en niri](doc/captura.png)
 
+## Descargas
+
+Los binarios están en [**Releases**](https://github.com/wfrs-dev/minish/releases/latest).
+No están firmados, así que cada sistema va a avisar antes de dejarte abrirlos.
+
+| Sistema | Archivo |
+| --- | --- |
+| Linux x86_64 | `minish-x86_64-linux.tar.gz` |
+| Windows x86_64 | `minish-x86_64-windows.zip` |
+| macOS Intel | `minish-x86_64-macos.tar.gz` |
+| macOS Apple Silicon | `minish-aarch64-macos.tar.gz` |
+
+### Requisitos en Linux
+
+El binario se compila en Ubuntu 22.04, así que necesita **glibc 2.35 o superior**
+(Ubuntu 22.04+, Debian 12+, Fedora 36+, Arch). Además `eframe` carga el backend
+gráfico en tiempo de ejecución: hace falta **Vulkan u OpenGL**, más las
+bibliotecas de **X11 o Wayland** que ya trae cualquier escritorio.
+
+Si falta algo, la app no arranca y el motivo sale por stderr:
+
+```sh
+./minish 2>&1 | head -5
+```
+
+### Avisos de cada sistema
+
+Los binarios no están firmados ni notarizados, y eso tiene consecuencias
+concretas:
+
+- **macOS**: Gatekeeper lo marca como dañado o de desarrollador no identificado.
+  Se destraba una sola vez por archivo:
+
+  ```sh
+  xattr -d com.apple.quarantine ./minish
+  ```
+
+- **Windows**: SmartScreen muestra "Windows protegió tu PC". Es por la falta de
+  firma de código: *Más información → Ejecutar de todas formas*.
+
+Firmar de verdad pide cuenta de Apple Developer y un certificado de code signing;
+por eso no está hecho.
+
+### Si nada de eso funciona
+
+Compilalo en tu máquina, que esquiva el problema de la glibc:
+
+```sh
+cargo install --git https://github.com/wfrs-dev/minish
+```
+
 ## Cómo correrlo
 
 Necesitás Rust 1.85 o superior (el proyecto usa la edición 2024). La única
